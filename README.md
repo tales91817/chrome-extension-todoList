@@ -11,7 +11,7 @@
 
 ## 畫面
 
-![主介面](https://upload.cc/i1/2023/09/08/7VAXGh.png)
+![主介面](https://upload.cc/i1/2023/09/08/dMVNpP.png)
 
 ## 安裝
 
