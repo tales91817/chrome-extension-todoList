@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 此專案是一款備忘錄 App，並可將該 App 嵌入 Google Chrome Extension 做使用。
 
-## Available Scripts
+## 功能
 
-In the project directory, you can run:
+- [x] 輸入待辦事項
+- [x] 完成待辦事項
+- [x] 移除待辦事項
+- [x] 將待辦事項自動存在 localhost 內，以防待辦事項被清除
 
-### `npm start`
+## 畫面
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![主介面](https://upload.cc/i1/2023/09/08/7VAXGh.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 安裝
 
-### `npm test`
+以下將會引導你如何安裝此專案到你的電腦上。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 取得專案
 
-### `npm run build`
+```bash
+git clone https://github.com/tales91817/chrome-extension-todoList
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 移動到專案內
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> 打開 Google Chrome，並且在網址列輸入"chrome://extensions/"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 建立套件
 
-### `npm run eject`
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 建立/引入套件
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> 回到瀏覽器，點選「載入未封裝項目」(https://upload.cc/i1/2023/09/08/egKVEU.jpg)
+> 進入到專案的根目錄，選取 build 資料夾，進入後選取 manifest.json
+> 載入成功後會看到擴充軟件出現 My Translator 的套件，允許該套件可以出現在擴充套件清單中 (https://upload.cc/i1/2023/09/08/DZFzbB.jpg)
+> 回到主畫面點擊擴充功能清單就可以發現 My Translator 的套件，點擊後就會出現該畫面，表示成功引入 (https://upload.cc/i1/2023/09/08/mj7YGd.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 運行專案
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+### 開啟專案
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+http://localhost:300/
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 資料夾說明
 
-### Code Splitting
+- components - 模組放置處
+- assets - 靜態資源放置處
+  - icons - 圖示放置處
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 專案技術
 
-### Analyzing the Bundle Size
+- HTML/CSS/JavaScript
+- React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 第三方服務
 
-### Making a Progressive Web App
+- Google Firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 聯絡作者
 
-### Advanced Configuration
+可以透過以下方式與我聯絡
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [部落格](https://medium.com/@tales91817)
+- [Instagram](https://www.instagram.com/lulumi_wei/)
