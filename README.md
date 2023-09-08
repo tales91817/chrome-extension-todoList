@@ -65,7 +65,7 @@ http://localhost:300/
 
 ## 第三方服務
 
-- Google Firebase
+- None
 
 ## 聯絡作者
 
