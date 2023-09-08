@@ -35,10 +35,10 @@ npm run build
 
 ### 建立/引入套件
 
-> 回到瀏覽器，點選「載入未封裝項目」(https://upload.cc/i1/2023/09/08/egKVEU.jpg)
-> 進入到專案的根目錄，選取 build 資料夾，進入後選取 manifest.json
-> 載入成功後會看到擴充軟件出現 My Translator 的套件，允許該套件可以出現在擴充套件清單中 (https://upload.cc/i1/2023/09/08/DZFzbB.jpg)
-> 回到主畫面點擊擴充功能清單就可以發現 My Translator 的套件，點擊後就會出現該畫面，表示成功引入 (https://upload.cc/i1/2023/09/08/mj7YGd.jpg)
+回到瀏覽器，點選「載入未封裝項目」(https://upload.cc/i1/2023/09/08/egKVEU.jpg)
+進入到專案的根目錄，選取 build 資料夾，進入後選取 manifest.json
+載入成功後會看到擴充軟件出現 My Translator 的套件，允許該套件可以出現在擴充套件清單中 (https://upload.cc/i1/2023/09/08/DZFzbB.jpg)
+回到主畫面點擊擴充功能清單就可以發現 My Translator 的套件，點擊後就會出現該畫面，表示成功引入 (https://upload.cc/i1/2023/09/08/mj7YGd.jpg)
 
 ### 運行專案
 
